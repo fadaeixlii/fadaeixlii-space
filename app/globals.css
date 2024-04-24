@@ -64,3 +64,19 @@
 html {
   scroll-behavior: smooth;
 }
+
+* {
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    @apply mob:hidden;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #7a7a7a;
+    opacity: 0.4;
+    mix-blend-mode: difference;
+    border-radius: 5px;
+    @apply mob:hidden;
+  }
+}
