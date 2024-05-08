@@ -15,16 +15,16 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20] flex-wrap"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="h-full  flex flex-col gap-5 justify-center m-auto text-start w-1/2">
         <motion.div
           variants={slideInFromTop}
           className="welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            Fullstack Web Developer Portfolio
           </h1>
         </motion.div>
 
@@ -44,22 +44,22 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-gray-400 my-5 max-w-[600px] cursive"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          I&apos;m a Full Stack Web Engineer with experience in Exchange,
+          Academy, and Web3 Project. Check out my projects and skills.
         </motion.p>
-        <motion.a
+        {/* <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           Learn More!
-        </motion.a>
+        </motion.a> */}
       </div>
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className=" h-full flex justify-center items-center  min-w-1/2 shrink-0"
       >
         <Image
           src="/mainIconsdark.svg"

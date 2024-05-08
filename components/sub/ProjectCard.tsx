@@ -35,25 +35,25 @@ const ProjectCard = ({
     <motion.div
       ref={container}
       className={` overflow-hidden   sticky top-0 mx-32 `}
-      style={{ scale, top: `calc(-15% + ${i * 25}px` }}
+      style={{ scale, top: `calc(-19% + ${i * 15}px` }}
     >
-      <div className=" w-4/5 h-fit flex !overflow-hidden items-center mx-auto rounded-[25px] shadow-lg border border-[#2a0e61] bg-black mt-[30vh]">
+      <div className=" w-3/5  flex flex-col !overflow-hidden items-center mx-auto rounded-[25px] shadow-lg border border-[#2a0e61] bg-black mt-[30vh]">
         <motion.div
           style={{
             scale: imageScale,
           }}
-          className="w-fit "
+          className="w-fit flex items-center justify-center "
         >
           <Image
             src={src}
             alt={title}
             height={1000}
             width={1000}
-            className="w-full  rounded-[25px]"
+            className=" w-full "
           />
         </motion.div>
-        <div className="relative p-4">
-          <h1 className="text-2xl font-semibold text-white">{title}</h1>
+        <div className="relative p-4 text-center cursive">
+          <h1 className="text-2xl font-semibold text-white cursive">{title}</h1>
           <p className="mt-2 text-gray-300">{description}</p>
         </div>
       </div>

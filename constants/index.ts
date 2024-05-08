@@ -48,7 +48,7 @@ export const Skill_data = [
     height: 80,
   },
   {
-    skill_name: "Next js 13",
+    skill_name: "Next js 14",
     Image: "/next.png",
     width: 80,
     height: 80,
@@ -60,8 +60,8 @@ export const Skill_data = [
     height: 80,
   },
   {
-    skill_name: "Stripe Payment",
-    Image: "/stripe.webp",
+    skill_name: "Express js",
+    Image: "/express.png",
     width: 80,
     height: 80,
   },
@@ -81,17 +81,24 @@ export const Skill_data = [
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
+    name: "Github",
+    src: "/gitwhite.png",
+    link: "https://github.com/fadaeixlii",
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: "Telegram",
+    src: "/Telegram.png",
+    link: "https://t.me/qwertqwert99",
   },
   {
-    name: "Instagram",
-    src: "/discord.svg",
+    name: "Linkedin",
+    src: "/Linkedin.png",
+    link: "https://www.linkedin.com/in/mohammad-m-khani-1512b5188/",
   },
+  // {
+  //   name: "Instagram",
+  //   src: "/discord.svg",
+  // },
 ];
 
 export const Frontend_skill = [
@@ -183,8 +190,8 @@ export const Backend_skill = [
     height: 55,
   },
   {
-    skill_name: "Postger SQL",
-    Image: "/postger.png",
+    skill_name: "Docker",
+    Image: "/docker.webp",
     width: 70,
     height: 70,
   },
@@ -210,16 +217,16 @@ export const Backend_skill = [
 
 export const Full_stack = [
   {
-    skill_name: "React Native",
-    Image: "/ReactNative .png",
+    skill_name: "React",
+    Image: "/React.png",
     width: 70,
     height: 70,
   },
   {
-    skill_name: "Tauri",
-    Image: "/tauri.svg",
-    width: 70,
-    height: 70,
+    skill_name: "Express js",
+    Image: "/express.png",
+    width: 80,
+    height: 80,
   },
   {
     skill_name: "Docker",
@@ -238,9 +245,56 @@ export const Full_stack = [
 
 export const Other_skill = [
   {
-    skill_name: "Go",
-    Image: "/go.png",
-    width: 60,
-    height: 60,
+    skill_name: "Solidity",
+    Image: "/solidity.png",
+    width: 100,
+    height: 100,
+  },
+];
+
+export const projects = [
+  {
+    src: "/projects/IntexExchange.png",
+    title: "Intex Exchange",
+    description:
+      "React TypeScript Tailwind Framer-motion React-tool-kit Redux Socket EChart TradingViewLibrary axios PWA",
+  },
+  {
+    src: "/projects/IntexFinanceLanding.png",
+    title: "Intex Landing ",
+    description: "React Tailwind Framer-motion Socket axios ",
+  },
+  {
+    src: "/projects/SharePrompt.png",
+    title: "Share Prompt",
+    description:
+      "NextJs TypeScript Tailwind MongoDB mongoose 0Auth next-0auth axios ",
+  },
+  {
+    src: "/projects/Panikar.png",
+    title: "Panikar Users Panel ",
+    description:
+      "React TypeScript SCSS apex-chart axios mobx mobx-state-tree GraphQL Apollo-client  ",
+  },
+  {
+    src: "/projects/PanikarWebsite.png",
+    title: "Panikar Website",
+    description:
+      "NextJs SCSS axios Recoil GraphQL Apollo-client dynamic-content",
+  },
+  {
+    src: "/projects/PanikarAdmin.png",
+    title: "Panikar Admin",
+    description: "React SCSS axios Redux Redux-saga GraphQL Apollo-client ",
+  },
+  {
+    src: "/projects/3gaam.png",
+    title: "3gaam App",
+    description: "React MaterialUI axios Mobx GraphQL Relay PWA",
+  },
+  {
+    src: "/projects/Virdaar.png",
+    title: "Virdaar",
+    description: "React SCSS Redux axios ",
   },
 ];

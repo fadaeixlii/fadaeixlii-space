@@ -1,3 +1,5 @@
+"use client";
+
 export function slideInFromLeft(delay: number) {
   return {
     hidden: { x: -100, opacity: 0 },
@@ -37,3 +39,7 @@ export const slideInFromTop = {
     },
   },
 };
+
+import { motion } from "framer-motion";
+
+export const MotionDiv = motion.div;
